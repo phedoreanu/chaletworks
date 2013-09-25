@@ -1,0 +1,123 @@
+#leftTopContainer {
+    float: left;
+    clear: left;
+    height: 88px;
+    width: 364px;
+    margin: 0;
+    padding: 0 0 0 40px;
+    background: #ffffff url(../images/left_fill.gif) repeat-y top left;
+}
+
+#rightTopContainer {
+    float: left;
+    width: 389px;
+    padding: 0;
+    margin: 0;
+    background: #ffffff url(../images/right_fill.gif) repeat-y top right;
+}
+
+#outerContentContainer {
+    float: left;
+    clear: left;
+    width: 753px;
+    margin: 0;
+    padding: 0 0 0 40px;
+    background-image: url(../images/content_fill.gif);
+    background-repeat: repeat-y;
+    background-position: top left;
+}
+
+#contentContainer {
+    float: left;
+    background-color: #ffffff;
+    width: 643px;
+    padding: 0 35px 0 35px;
+    margin: 0 0 0 0;
+    text-align: left;
+    background-image: url(../images/chaletworks_content_bg_1col.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+#contentContainer h1.double_line {
+    margin: 17px 0 30px 0;
+    padding: 0 0 0 0;
+    font-size: 100%;
+    font-family: arial;
+    color: #993300;
+}
+
+#contentContainer h1.single_line {
+    margin: 36px 0 30px 0;
+    padding: 0 0 0 0;
+    font-size: 100%;
+    font-family: arial;
+    color: #993300;
+}
+
+#contentContainer h2 {
+    margin: 0 0 10px 0;
+    padding: 0 0 0 0;
+    font-size: 100%;
+    font-family: arial;
+    color: #000000;
+}
+
+#contentContainer p {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 80%;
+    font-family: arial;
+    color: #333333;
+    line-height: 1.5;
+}
+
+#contentContainer a {
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+#contentContainer a:hover {
+    margin: 0;
+    padding: 0;
+    color: #666666;
+    text-decoration: none;
+}
+
+#contentContainer table {
+    padding: 0;
+    border-style: none;
+    width: 640px;
+    margin: 0 0 10px 5px;
+}
+
+#contentContainer th {
+    margin: 0;
+    padding: 0;
+    border-style: none;
+    text-align: center;
+    vertical-align: top;
+}
+
+#contentContainer td {
+    margin: 0;
+    padding: 0 0 5px 0;
+    border-style: none;
+    text-align: left;
+    vertical-align: top;
+}
+
+#contentContainer td.left {
+    text-align: center;
+    padding-right: 5px;
+}
+
+#contentContainer td.right {
+    text-align: center;
+    padding-left: 5px;
+}
+
+#contentContainer img.black_border {
+    border: 1px solid #000000;
+}

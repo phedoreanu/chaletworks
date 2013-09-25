@@ -1,0 +1,156 @@
+body, html {
+    margin: 0;
+    padding: 24px 0 0 0;
+    text-align: center;
+}
+
+body {
+    font-family: arial;
+    font-size: 100%;
+    font-weight: normal;
+    color: #333333;
+}
+
+body {
+    border-width: 0 0 0 0;
+    background: url(../images/bg_fill.gif) repeat top left;
+}
+
+/*img{padding:0; margin:0; border-style:none;}*/
+
+.clearBoth {
+    clear: both;
+}
+
+.clearLeft {
+    clear: left;
+}
+
+.clearRight {
+    clear: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+img.noBorder {
+    border-width: 0;
+}
+
+#outerContainer {
+    width: 100%;
+    text-align: center;
+}
+
+#header {
+    width: 793px;
+    height: 112px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#bodyContainer {
+    width: 793px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#navContainer {
+    float: left;
+    clear: left;
+    height: 51px;
+    width: 362px;
+    overflow: hidden;
+    margin: 0;
+    padding: 1px 0 0 1px;
+    background-color: #ffffff;
+}
+
+#navContainer a {
+    margin: 0;
+    float: left;
+    text-decoration: none;
+    border-style: none;
+}
+
+#navContainer img {
+    border-style: none;
+    display: block;
+}
+
+#navContainer img.selected_page {
+    float: left;
+}
+
+#navContainer a.home_page {
+    background-image: url(../images/home_page.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+#navContainer a.home_page:hover {
+    background-image: url(../images/home_page-over.gif);
+}
+
+#navContainer a.what_we_do {
+    background-image: url(../images/what_we_do.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+#navContainer a.what_we_do:hover {
+    background-image: url(../images/what_we_do-over.gif);
+}
+
+#navContainer a.our_gallery {
+    background-image: url(../images/our_gallery.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+#navContainer a.our_gallery:hover {
+    background-image: url(../images/our_gallery-over.gif);
+}
+
+#navContainer a.contact_us {
+    background-image: url(../images/contact_us.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+#navContainer a.contact_us:hover {
+    background-image: url(../images/contact_us-over.gif);
+}
+
+#footer {
+    width: 793px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#container {
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+
+#image {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#text {
+    z-index: 2;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    left: -10px;
+    top: 263px;
+    text-shadow: 1px 1px #ccccaa;
+}

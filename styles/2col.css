@@ -1,0 +1,62 @@
+#leftContent {
+    float: left;
+    clear: left;
+    height: 402px;
+    width: 364px;
+    margin: 0;
+    padding: 0 0 0 40px;
+    background: #ffffff url(../images/left_fill.gif) repeat-y top left;
+}
+
+#leftContentContainer {
+    float: left;
+    clear: left;
+    width: 364px;
+    margin: 0;
+    padding: 0 0 0 0;
+    text-align: left;
+    background: #ffffff url(../images/chaletworks_content_bg.gif) no-repeat top left;
+}
+
+#leftContentContainer h1.double_line {
+    margin: 45px 0 30px 32px;
+    padding: 0 0 0 0;
+    font-size: 100%;
+    font-family: arial;
+    color: #993300;
+}
+
+#leftContentContainer h1.single_line {
+    margin: 64px 0 30px 32px;
+    padding: 0 0 0 0;
+    font-size: 100%;
+    font-family: arial;
+    color: #993300;
+}
+
+#leftContentContainer h2 {
+    margin: 0 0 10px 32px;
+    padding: 0 0 0 0;
+    font-size: 100%;
+    font-family: arial;
+    color: #000000;
+}
+
+#leftContentContainer p {
+    margin: 0 30px 20px 32px;
+    padding: 0 0 0 0;
+    font-size: 80%;
+    font-family: arial;
+    color: #333333;
+}
+
+#rightContent {
+    float: left;
+    width: 389px;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    background-image: url(../images/right_fill.gif);
+    background-repeat: repeat-y;
+    background-position: top right;
+}
