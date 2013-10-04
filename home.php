@@ -17,4 +17,4 @@ $smarty->assign('call_us', 'Call us');
 //** un-comment the following line to show the debug console
 //$smarty->debugging = true;
 
-$smarty->display('index.tpl');
+$smarty->display('home.tpl');

@@ -12,8 +12,8 @@
 <body onload="MM_preloadImages('images/home_page-over.gif','images/what_we_do-over.gif','images/our_gallery-over.gif','images/contact_us-over.gif')">
 <div id="outerContainer">
     <div id="header">
-        <a href="index.php">
-            <img src="images/header_1.gif" height="99" width="619" class="floatLeft clearLeft"
+        <a href="home.php">
+        <img src="images/header_1.gif" height="99" width="619" class="floatLeft clearLeft"
                  alt="Chalet Works"/>
         </a>
         <img usemap="#select_language" src="images/header_2.gif" height="99" width="174"

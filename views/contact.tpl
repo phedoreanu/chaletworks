@@ -1,10 +1,10 @@
-{extends file='index.tpl'}
+{extends file='home.tpl'}
 
 {block name=content}
     <div id="leftContent">
         <div id="navContainer">
-            <a href="index{$language}.php" class="home_page"><img src="images/spacer.gif" height="51" width="84"
-                                                                  alt="Home page"/></a>
+            <a href="home{$language}.php" class="home_page"><img src="images/spacer.gif" height="51" width="84"
+                                                                 alt="Home page"/></a>
             <a href="what_we_do{$language}.php" class="what_we_do"><img src="images/spacer.gif" height="51" width="96"
                                                                         alt="What we do"/></a>
             <a href="gallery{$language}.php" class="our_gallery"><img src="images/spacer.gif" height="51" width="87"

@@ -3,8 +3,8 @@
 {block name=content}
     <div id="leftTopContainer">
         <div id="navContainer">
-            <a href="index{$language}.php" class="home_page">
-                <img src="images/spacer.gif" height="51px" width="84px" alt=""/>
+            <a href="home{$language}.php" class="home_page">
+            <img src="images/spacer.gif" height="51px" width="84px" alt=""/>
             </a>
             <a href="what_we_do{$language}.php" class="what_we_do"><img src="images/spacer.gif" height="51" width="96"
                                                                         alt="What we do"/></a>

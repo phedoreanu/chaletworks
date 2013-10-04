@@ -15,4 +15,4 @@ $smarty->assign('p1', "Découvrez notre site et les nombreux services que nous v
 $smarty->assign('p2', "Cliquez sur nos rubriques pour découvrir l'étendue de notre offre!");
 $smarty->assign('call_us', 'Appelez-nous');
 
-$smarty->display('index.tpl');
+$smarty->display('home.tpl');
