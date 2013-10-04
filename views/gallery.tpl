@@ -4,13 +4,13 @@
     <div id="leftTopContainer">
         <div id="navContainer">
             <a href="home{$language}" class="home_page">
-            <img src="images/spacer.gif" height="51px" width="84px" alt=""/>
+                <img src="images/spacer.gif" height="51px" width="84px" alt=""/>
             </a>
             <a href="what_we_do{$language}" class="what_we_do"><img src="images/spacer.gif" height="51" width="96"
                                                                     alt="What we do"/></a>
             <img src="images/our_gallery-over.gif" class="selected_page" height="51" width="87" alt=""/>
             <a href="contact{$language}" class="contact_us">
-            <img src="images/spacer.gif" height="51px" width="95px" alt=""/>
+                <img src="images/spacer.gif" height="51px" width="95px" alt=""/>
             </a>
         </div>
     </div>
@@ -19,7 +19,7 @@
              alt=""/><img src="images/chaletworks_pic_top_right.gif" height="88px" width="40px" class="floatLeft"
                           alt=""/>
     </div>
-    <div id="outerContentContainer" style="height:4414px;">
+    <div id="outerContentContainer" style="height:4934px;">
     <div id="contentContainer">
     <h1 class="single_line">{$title}</h1>
     <table>
@@ -83,19 +83,40 @@
     </tr>
     <tr>
         <td><p>{$kitchens}</p></td>
-        <td class="left"><a href="images/kitchen.jpg"
-                            onclick="window.open('show.php?imname=kitchen.jpg','chaletworks','height=600,width=800,top=100,left=100,location=0,menubar=0,resizable=1,scrollbars=0,status=0,toolbar=0'); return false;"><img
-                        class="black_border" src="images/kitchen_small.jpg" height="200" width="266"
-                        alt=""/></a>
+        <td class="left">
+            <a onclick="openImage('kitchen.jpg');">
+                <img class="black_border" src="images/kitchen_small.jpg" height="200" width="266" alt=""/>
+            </a>
 
-            <p>&nbsp;</p></td>
-        <td class="right"><img class="black_border" src="images/coming_soon.gif" height="200"
-                               width="266" alt=""/>
+            <p>&nbsp;</p>
+        </td>
+        <td class="right">
+            <a onclick="openImage('kitchen_2.jpg');">
+                <img class="black_border" src="images/kitchen_2.jpg" height="200" width="266" alt=""/>
+            </a>
 
-            <p>&nbsp;</p></td>
+            <p>&nbsp;</p>
+        </td>
     </tr>
     <tr>
-        <td><p>{$heating}</p></td>
+        <td>&nbsp;</td>
+        <td class="left">
+            <a onclick="openImage('kitchen_3.jpg');">
+                <img class="black_border" src="images/kitchen_3.jpg" height="200" width="266" alt=""/>
+            </a>
+
+            <p>&nbsp;</p>
+        </td>
+        <td class="right">
+            <a onclick="openImage('kitchen_4.jpg');">
+                <img class="black_border" src="images/kitchen_4.jpg" height="200" width="266" alt=""/>
+            </a>
+
+            <p>&nbsp;</p>
+        </td>
+    </tr>
+    <tr>
+    <td><p>{$heating}</p></td>
         <td class="left"><a href="images/underfloor_heating_1.jpg"
                             onclick="window.open('show.php?imname=underfloor_heating_1.jpg','chaletworks','height=600,width=800,top=100,left=100,location=0,menubar=0,resizable=1,scrollbars=0,status=0,toolbar=0'); return false;"><img
                         class="black_border" src="images/underfloor_heating_1_small.jpg" height="200"
@@ -110,7 +131,24 @@
             <p>&nbsp;</p></td>
     </tr>
     <tr>
-        <td><p>{$doors}</p></td>
+        <td>&nbsp;</td>
+        <td class="left">
+            <a onclick="openImage('heating_2.jpg');">
+                <img class="black_border" src="images/heating_2.jpg" height="200" width="266" alt=""/>
+            </a>
+
+            <p>&nbsp;</p>
+        </td>
+        <td class="right">
+            <a onclick="openImage('heating_3.jpg');">
+                <img class="black_border" src="images/heating_3.jpg" height="200" width="266" alt=""/>
+            </a>
+
+            <p>&nbsp;</p>
+        </td>
+    </tr>
+    <tr>
+    <td><p>{$doors}</p></td>
         <td class="left"><a href="images/doors.jpg"
                             onclick="window.open('show.php?imname=doors.jpg','chaletworks','height=600,width=450,top=100,left=100,location=0,menubar=0,resizable=1,scrollbars=0,status=0,toolbar=0'); return false;"><img
                         class="black_border" src="images/doors_small.jpg" height="355" width="266" alt=""/></a>
@@ -125,62 +163,93 @@
     </tr>
     <tr>
         <td><p>{$vents}</p></td>
-        <td class="left"><img class="black_border" src="images/coming_soon.gif" height="200"
-                              width="266" alt=""/>
+        <td class="left">
+            <a onclick="openImage('ventilation.jpg');">
+                <img class="black_border" src="images/ventilation.jpg" height="200" width="266" alt=""/>
+            </a>
 
-            <p>&nbsp;</p></td>
-        <td class="right"><img class="black_border" src="images/coming_soon.gif" height="200"
-                               width="266" alt=""/>
+            <p>&nbsp;</p>
+        </td>
 
-            <p>&nbsp;</p></td>
+        <p>&nbsp;</p></td>
+        <td class="right">
+            <a onclick="openImage('ventilation_2.jpg');">
+                <img class="black_border" src="images/ventilation_2.jpg" height="200" width="266" alt=""/>
+            </a>
+
+            <p>&nbsp;</p>
+        </td>
     </tr>
     <tr>
         <td><p>{$saunas}</p></td>
-        <td class="left"><img class="black_border" src="images/coming_soon.gif" height="200"
-                              width="266" alt=""/>
+        <td class="left">
+            <a onclick="openImage('sauna.jpg');">
+                <img class="black_border" src="images/sauna.jpg" height="200" width="266" alt=""/>
+            </a>
 
-            <p>&nbsp;</p></td>
-        <td class="right"><img class="black_border" src="images/coming_soon.gif" height="200"
-                               width="266" alt=""/>
+            <p>&nbsp;</p>
+        </td>
 
-            <p>&nbsp;</p></td>
+        <p>&nbsp;</p></td>
+        <td class="right">
+            <a onclick="openImage('appliances.jpg');">
+                <img class="black_border" src="images/appliances.jpg" height="200" width="266" alt=""/>
+            </a>
+
+            <p>&nbsp;</p>
+        </td>
+
     </tr>
     <tr>
         <td><p>{$electricity}</p></td>
-        <td class="left"><a href="images/electricity.jpg"
-                            onclick="window.open('show.php?imname=electricity.jpg','chaletworks','height=600,width=800,top=100,left=100,location=0,menubar=0,resizable=1,scrollbars=0,status=0,toolbar=0'); return false;"><img
-                        class="black_border" src="images/electricity_small.jpg" height="200" width="266"
-                        alt=""/></a>
+        <td class="left">
+            <a onclick="openImage('electricity_1.jpg');">
+                <img class="black_border" src="images/electricity_1.jpg" height="200" width="266" alt=""/>
+            </a>
 
-            <p>&nbsp;</p></td>
-        <td class="right"><a href="images/plumbing.jpg"
-                             onclick="window.open('show.php?imname=plumbing.jpg','chaletworks','height=600,width=800,top=100,left=100,location=0,menubar=0,resizable=1,scrollbars=0,status=0,toolbar=0'); return false;"><img
-                        class="black_border" src="images/plumbing_small.jpg" height="200" width="266"
-                        alt=""/></a>
+            <p>&nbsp;</p>
+        </td>
+        <td class="right">
+            <a onclick="openImage('plumbing_2.jpg');">
+                <img class="black_border" src="images/plumbing_2.jpg" height="200" width="266" alt=""/>
+            </a>
 
-            <p>&nbsp;</p></td>
+            <p>&nbsp;</p>
+        </td>
     </tr>
     <tr>
-        <td><p>{$paiting}</p></td>
-        <td class="left"><img class="black_border" src="images/coming_soon.gif" height="200"
-                              width="266" alt=""/>
+        <td><p>{$painting}</p></td>
+        <td class="left">
+            <a onclick="openImage('painting.jpg');">
+                <img class="black_border" src="images/painting.jpg" height="200" width="266" alt=""/>
+            </a>
 
-            <p>&nbsp;</p></td>
-        <td class="right"><img class="black_border" src="images/coming_soon.gif" height="200"
-                               width="266" alt=""/>
+            <p>&nbsp;</p>
+        </td>
+        <td class="left">
+            <a onclick="openImage('painting_2.jpg');">
+                <img class="black_border" src="images/painting_2.jpg" height="200" width="266" alt=""/>
+            </a>
 
-            <p>&nbsp;</p></td>
+            <p>&nbsp;</p>
+        </td>
     </tr>
     <tr>
         <td><p>{$woodwork}</p></td>
-        <td class="left"><img class="black_border" src="images/coming_soon.gif" height="200"
-                              width="266" alt=""/>
+        <td class="left">
+            <a onclick="openImage('wood.jpg');">
+                <img class="black_border" src="images/wood.jpg" height="200" width="266" alt=""/>
+            </a>
 
-            <p>&nbsp;</p></td>
-        <td class="right"><img class="black_border" src="images/coming_soon.gif" height="200"
-                               width="266" alt=""/>
+            <p>&nbsp;</p>
+        </td>
+        <td class="right">
+            <a onclick="openImage('wood_2.jpg');">
+                <img class="black_border" src="images/wood_2.jpg" height="200" width="266" alt=""/>
+            </a>
 
-            <p>&nbsp;</p></td>
+            <p>&nbsp;</p>
+        </td>
     </tr>
     <tr>
         <td><p>{$gardens}</p></td>
@@ -265,10 +334,13 @@
                         alt=""/></a>
 
             <p>&nbsp;</p></td>
-        <td class="right"><img class="black_border" src="images/coming_soon.gif" height="200"
-                               width="266" alt=""/>
+        <td class="right">
+            <a onclick="openImage('balcony_4.jpg');">
+                <img class="black_border" src="images/balcony_4.jpg" height="200" width="266" alt=""/>
+            </a>
 
-            <p>&nbsp;</p></td>
+            <p>&nbsp;</p>
+        </td>
     </tr>
     </table>
     </div>

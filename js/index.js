@@ -23,3 +23,8 @@ function changeImages() {
         }
     }
 }
+
+function openImage(image) {
+    window.open('show.php?imname=' + image, 'chaletworks', 'height=700,width=1024,top=100,left=100,location=0,menubar=0,resizable=1,scrollbars=0,status=0,toolbar=0');
+    return false;
+}
