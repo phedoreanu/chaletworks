@@ -12,13 +12,13 @@
 <body onload="MM_preloadImages('images/home_page-over.gif','images/what_we_do-over.gif','images/our_gallery-over.gif','images/contact_us-over.gif')">
 <div id="outerContainer">
     <div id="header">
-        <a href="home.php">
+        <a href="home">
         <img src="images/header_1.gif" height="99" width="619" class="floatLeft clearLeft"
                  alt="Chalet Works"/>
         </a>
         <img usemap="#select_language" src="images/header_2.gif" height="99" width="174"
-             class="floatLeft noBorder"
-             alt="Choose Language"/>
+             class="floatLeft noBorder"\
+        alt="Choose Language"/>
         <img src="images/top_bar.gif" height="13" width="793" class="floatLeft clearBoth" alt=""/>
     </div>
     <div id="bodyContainer">
@@ -26,14 +26,14 @@
             <div id="leftContent">
                 <div id="navContainer">
                     <img src="images/home_page-over.gif" class="selected_page" height="51" width="84" alt=""/>
-                    <a href="what_we_do{$language}.php" class="what_we_do"><img src="images/spacer.gif" height="51"
-                                                                                width="96"
+                    <a href="what_we_do{$language}" class="what_we_do"><img src="images/spacer.gif" height="51"
+                                                                            width="96"
                                                                                 alt=""/></a>
-                    <a href="gallery{$language}.php" class="our_gallery"><img src="images/spacer.gif" height="51"
-                                                                              width="87"
+                    <a href="gallery{$language}" class="our_gallery"><img src="images/spacer.gif" height="51"
+                                                                          width="87"
                                                                               alt=""/></a>
-                    <a href="contact{$language}.php" class="contact_us"><img src="images/spacer.gif" height="51"
-                                                                             width="95"
+                    <a href="contact{$language}" class="contact_us"><img src="images/spacer.gif" height="51"
+                                                                         width="95"
                                                                              alt=""/></a>
                 </div>
                 <div id="leftContentContainer">

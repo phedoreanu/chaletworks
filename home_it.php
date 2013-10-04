@@ -7,7 +7,7 @@ $smarty->setCompileDir(dirname(__FILE__) . '/views_c/');
 $smarty->setConfigDir(dirname(__FILE__) . '/configs/');
 $smarty->setCacheDir(dirname(__FILE__) . '/cache/');
 
-$smarty->assign('page', 'index');
+$smarty->assign('page', 'home');
 $smarty->assign('language', '_it');
 
 $smarty->assign('welcome', 'BENVENUTO A');
@@ -15,4 +15,4 @@ $smarty->assign('p1', "Il nostro sito, facilmente navigabile, vi farà scoprire 
 $smarty->assign('p2', "Scivolate sulle altre rubriche per rendervi conto del nostro lavoro!");
 $smarty->assign('call_us', 'Chiamaci su');
 
-$smarty->display('home.tpl');
+$smarty->display('index.tpl');

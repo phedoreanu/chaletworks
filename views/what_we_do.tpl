@@ -1,4 +1,4 @@
-{extends file='home.tpl'}
+{extends file='index.tpl'}
 
 {block name=head}
     <link href="styles/1col.css" rel="stylesheet" type="text/css"/>
@@ -7,15 +7,15 @@
 {block name=content}
     <div id="leftTopContainer">
         <div id="navContainer">
-            <a href="home{$language}.php" class="home_page">
-                <img src="images/spacer.gif" height="51px" width="84px" alt=""/>
+            <a href="home{$language}" class="home_page">
+            <img src="images/spacer.gif" height="51px" width="84px" alt=""/>
             </a>
             <img src="images/what_we_do-over.gif" class="selected_page" height="51px" width="96px" alt=""/>
-            <a href="gallery{$language}.php" class="our_gallery">
-                <img src="images/spacer.gif" height="51px" width="87px" alt=""/>
+            <a href="gallery{$language}" class="our_gallery">
+            <img src="images/spacer.gif" height="51px" width="87px" alt=""/>
             </a>
-            <a href="contact{$language}.php" class="contact_us">
-                <img src="images/spacer.gif" height="51px" width="95px" alt=""/>
+            <a href="contact{$language}" class="contact_us">
+            <img src="images/spacer.gif" height="51px" width="95px" alt=""/>
             </a>
         </div>
     </div>

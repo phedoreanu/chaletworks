@@ -3,14 +3,14 @@
 {block name=content}
     <div id="leftTopContainer">
         <div id="navContainer">
-            <a href="home{$language}.php" class="home_page">
+            <a href="home{$language}" class="home_page">
             <img src="images/spacer.gif" height="51px" width="84px" alt=""/>
             </a>
-            <a href="what_we_do{$language}.php" class="what_we_do"><img src="images/spacer.gif" height="51" width="96"
-                                                                        alt="What we do"/></a>
+            <a href="what_we_do{$language}" class="what_we_do"><img src="images/spacer.gif" height="51" width="96"
+                                                                    alt="What we do"/></a>
             <img src="images/our_gallery-over.gif" class="selected_page" height="51" width="87" alt=""/>
-            <a href="contact{$language}.php" class="contact_us">
-                <img src="images/spacer.gif" height="51px" width="95px" alt=""/>
+            <a href="contact{$language}" class="contact_us">
+            <img src="images/spacer.gif" height="51px" width="95px" alt=""/>
             </a>
         </div>
     </div>

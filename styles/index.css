@@ -88,9 +88,7 @@ img.noBorder {
 }
 
 #navContainer a.home_page {
-    background-image: url(../images/home_page.gif);
-    background-repeat: no-repeat;
-    background-position: top left;
+    background: url(../images/home_page.gif) no-repeat top left;
 }
 
 #navContainer a.home_page:hover {
@@ -98,9 +96,7 @@ img.noBorder {
 }
 
 #navContainer a.what_we_do {
-    background-image: url(../images/what_we_do.gif);
-    background-repeat: no-repeat;
-    background-position: top left;
+    background: url(../images/what_we_do.gif) no-repeat top left;
 }
 
 #navContainer a.what_we_do:hover {
@@ -108,9 +104,7 @@ img.noBorder {
 }
 
 #navContainer a.our_gallery {
-    background-image: url(../images/our_gallery.gif);
-    background-repeat: no-repeat;
-    background-position: top left;
+    background: url(../images/our_gallery.gif) no-repeat top left;
 }
 
 #navContainer a.our_gallery:hover {
@@ -118,9 +112,7 @@ img.noBorder {
 }
 
 #navContainer a.contact_us {
-    background-image: url(../images/contact_us.gif);
-    background-repeat: no-repeat;
-    background-position: top left;
+    background: url(../images/contact_us.gif) no-repeat top left;
 }
 
 #navContainer a.contact_us:hover {
