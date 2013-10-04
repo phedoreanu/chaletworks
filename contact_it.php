@@ -10,7 +10,7 @@ $smarty->setCacheDir(dirname(__FILE__) . '/cache/');
 $smarty->assign('page', 'contact');
 $smarty->assign('language', '_it');
 
-$smarty->assign('title', 'CONTACT US');
+$smarty->assign('title', 'PER CONTATTARCI');
 $smarty->assign('telephone', 'Telefono');
 $smarty->assign('VAT', 'Partita I.V.A');
 $smarty->assign('SIRET', " N° camera di commercio");
