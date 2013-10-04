@@ -19,7 +19,7 @@
              alt=""/><img src="images/chaletworks_pic_top_right.gif" height="88px" width="40px" class="floatLeft"
                           alt=""/>
     </div>
-    <div id="outerContentContainer" style="height:4934px;">
+    <div id="outerContentContainer" style="height:5170px;">
     <div id="contentContainer">
     <h1 class="single_line">{$title}</h1>
     <table>
@@ -253,6 +253,23 @@
     </tr>
     <tr>
         <td><p>{$gardens}</p></td>
+        <td class="left">
+            <a onclick="openImage('jacuzzi_2.jpg');">
+                <img class="black_border" src="images/jacuzzi_2.jpg" height="200" width="266" alt=""/>
+            </a>
+
+            <p>&nbsp;</p>
+        </td>
+        <td class="right">
+            <a onclick="openImage('jacuzzi_3.jpg');">
+                <img class="black_border" src="images/jacuzzi_3.jpg" height="200" width="266" alt=""/>
+            </a>
+
+            <p>&nbsp;</p>
+        </td>
+    </tr>
+    <tr>
+        <td><p>&nbsp;</p></td>
         <td class="left"><a href="images/jacuzzi.jpg"
                             onclick="window.open('show.php?imname=jacuzzi.jpg','chaletworks','height=600,width=800,top=100,left=100,location=0,menubar=0,resizable=1,scrollbars=0,status=0,toolbar=0'); return false;"><img
                         class="black_border" src="images/jacuzzi_small.jpg" height="200" width="266"
@@ -267,7 +284,7 @@
             <p>&nbsp;</p></td>
     </tr>
     <tr>
-        <td><p>{$roofs}</p></td>
+    <td><p>{$roofs}</p></td>
         <td class="left"><a href="images/roofs_extensions_1.jpg"
                             onclick="window.open('show.php?imname=roofs_extensions_1.jpg','chaletworks','height=600,width=800,top=100,left=100,location=0,menubar=0,resizable=1,scrollbars=0,status=0,toolbar=0'); return false;"><img
                         class="black_border" src="images/roofs_extensions_1_small.jpg" height="200"
